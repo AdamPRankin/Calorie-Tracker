@@ -14,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/CaloryTracker.core.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core-ui/CaloryTracker.core_ui.iml" filepath="$PROJECT_DIR$/.idea/modules/core-ui/CaloryTracker.core_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core_ui/CaloryTracker.core_ui.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/onboarding/CaloryTracker.onboarding.iml" filepath="$PROJECT_DIR$/.idea/modules/onboarding/CaloryTracker.onboarding.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/onboarding/onboarding_domain/CaloryTracker.onboarding.onboarding_domain.iml" filepath="$PROJECT_DIR$/.idea/modules/onboarding/onboarding_domain/CaloryTracker.onboarding.onboarding_domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/onboarding/onboarding_domain/CaloryTracker.onboarding.onboarding_domain.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/onboarding/onboarding_domain/CaloryTracker.onboarding.onboarding_domain.androidTest.iml" />
