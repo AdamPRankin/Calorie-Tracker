@@ -17,7 +17,6 @@ class DefaultPreferences(
             .apply()
     }
 
-
     override fun saveAge(age: Int) {
         sharedPref.edit()
             .putInt(Preferences.KEY_AGE, age)
@@ -72,7 +71,7 @@ class DefaultPreferences(
         val weight = sharedPref.getFloat(Preferences.KEY_WEIGHT, -1f)
         val genderString = sharedPref.getString(Preferences.KEY_GENDER, null)
         val activityLevelString = sharedPref
-            .getString(Preferences.KEY_ACTIVITY_LEVEL, null)
+            .getString(Preferences.KEY_ACTIVITY_LEVEL, "medium")
         val goalType = sharedPref.getString(Preferences.KEY_GOAL_TYPE, null)
         val carbRatio = sharedPref.getFloat(Preferences.KEY_CARB_RATIO, -1f)
         val proteinRatio = sharedPref.getFloat(Preferences.KEY_PROTEIN_RATIO, -1f)
@@ -89,5 +88,14 @@ class DefaultPreferences(
             proteinRatio = proteinRatio,
             fatRatio = fatRatio
         )
+    }
+
+    override fun saveShouldShowOnboarding(shouldShow: Boolean) {
+        sharedPref.edit()
+            .putBoolean(Preferences.KEY_SHOULD_SHOW_ONBOARDING, shouldShow).apply()
+    }
+
+    override fun loadShouldShowOnBoarding(): Boolean {
+        return sharedPref.getBoolean(Preferences.KEY_SHOULD_SHOW_ONBOARDING,true)
     }
 }

@@ -5,10 +5,11 @@ import com.example.tracker_domain.model.TrackableFood
 import kotlin.math.roundToInt
 
 fun Product.toTrackableFood(): TrackableFood? {
-    val carbsPer100g = nutrients.carbohydrates100g.roundToInt()
-    val proteinPer100g = nutrients.proteins100g.roundToInt()
-    val fatPer100g = nutrients.proteins100g.roundToInt()
-    val caloriesPer100g = nutrients.energyKcal100g.roundToInt()
+    val carbsPer100g = 34 //nutrients.carbohydrates100g.roundToInt()
+    val proteinPer100g = 33 //nutrients.proteins100g.roundToInt()
+    val fatPer100g = 33 //nutrients.proteins100g.roundToInt()
+    val caloriesPer100g = 400 // nutrients.energyKcal100g.roundToInt()
+    //TODO replace api with one that has nutrient values
     return TrackableFood(
         name = productName ?: return null,
         carbsPer100g = carbsPer100g,
